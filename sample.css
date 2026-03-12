@@ -1,0 +1,30 @@
+h1{
+    font-family: cursive;
+    font-weight: 800;
+    color: rgb(112, 250, 13);
+    text-align: center;
+    text-decoration: double;
+}
+body{
+    background-image:url(img/sofia-lasheva-7m84cCVTV4I-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: rgb(239, 239, 23);
+    text-align: center;
+}
+button{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}

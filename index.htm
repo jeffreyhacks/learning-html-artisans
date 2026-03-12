@@ -12,6 +12,24 @@
             h2{
                 color: aquamarine;
             }
+            table,th,td{
+                border: 1px solid white;
+                border-collapse: collapse;
+                padding: 10px;
+                width: 10%;
+            }
+            table#alter tr:nth-child(even){
+                background-color:aqua;
+                color: black;
+            }
+             table#alter tr:nth-child(odd){
+                background-color:beige;
+                color: blueviolet;
+            }
+             table#alter th{
+                background-color: black;
+                color: white;
+            }
         </style>
     </head>
     <body style="background-color: black;color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
@@ -131,5 +149,24 @@
                 <img src="https://images.unsplash.com/photo-1773008891997-24b7bcfb6f14?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0MXx8fGVufDB8fHx8fA%3D%3D" alt="" width="400px" height="400px" object-fit="cover" style="float: center;">This image floats to the center of this text.
             </p>
         </div>
+        <table id="alter" >
+            <caption style="font-family: Arial, Helvetica, sans-serif;font-weight: 800;color: blue;">New Hire 2025-2026</caption>
+            <tr><th>No.</th><th>Name</th><th>Age</th><th>Gender</th><th>location</th></tr>
+            <tr><td>1</td><td>John</td><td>25</td><td>male</td><td>New York</td></tr>
+            <tr><td>2</td><td>Jane</td><td>30</td><td>female</td><td>Los Angeles</td></tr><tr><td>3</td><td>Bob</td><td>35</td><td>male</td><td>Chicago</td></tr><tr><td>4</td><td>Alice</td><td>28</td><td>female</td><td>Houston</td></tr><tr><td>5</td><td>Charlie</td><td>33</td><td>male</td><td>Phoenix</td></tr><tr><td>6</td><td>Diana</td><td>29</td><td>female</td><td>Philadelphia</td></tr><tr><td>7</td><td>Emma</td><td>27</td><td>female</td><td>Seattle</td></tr><tr><td>8</td><td>David</td><td>31</td><td>male</td><td>San Antonio</td></tr><tr><td>9</td><td>Eva</td><td>26</td><td>female</td><td>Denver</td></tr><tr><td>10</td><td>Frank</td><td>34</td><td>male</td><td>Atlanta</td></tr>
+        </table>
+        <table>
+            <caption>Outer Table</caption>
+            <tr><th>1</th><th>2</th><th>3</th></tr>
+            <tr><td>Outer table cell</td><td>i</td><td>ii</td></tr>
+            <tr><td>Outer table cell 2</td><td>ii</td><td>iii</td></tr>
+            <tr><td>Outer table cell 3</td><td>iv</td><td>v</td></tr>
+            <table>
+                <caption>Inner Table</caption>
+                <td>Inner table cell</td>
+            </table>
+        </table>
+        <div> <!--template-->
+            
     </body>
 </html>

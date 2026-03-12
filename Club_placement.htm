@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="placement.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Club Placement</h1>
+    <p>Placement is done autmatically based on your selection and how you answered previous Questions</p>
+    <div>
+        <form action="">
+            <fieldset disabled>
+                <legend>Placement options</legend>
+                <input type="radio" name="placement" id="safari"><label for="safari">Safari Club</label><br>
+                <input type="radio" name="placement" id="adventure"><label for="adventure">Adventure Club</label><br>
+                <input type="radio" name="placement" id="nature"><label for="nature">Nature Club</label><br>
+                <input type="radio" name="placement" id="wildlife"><label for="wildlife">Wildlife Club</label><br>
+            </fieldset>
+            <div>
+                <p>Select answer that best fits your interests</p><br>
+                <p>What excites you most about joining an adventure club?</p><br>
+                <label for="answers">Answer:</label><br>
+                <select name="answers" id="answers" required>
+                    <option value="A">Exploring nature trails and wildlife</option>
+                    <option value="B">High‑energy sports like rock climbing or rafting</option>
+                    <option value="C">Team challenges and survival skills</option>
+                    <option value="D">Relaxed outdoor activities like camping and stargazing</option>
+                </select><br>
+                <p> Which environment do you feel most comfortable in?</p><br>
+                <label for="ans">Answers:</label><br>
+                <select name="ans" id="ans" size="1" required>
+                    <option value="A">Forests and hiking paths</option>
+                    <option value="B">Mountains and rock formations</option>
+                    <option value="C">River & Lakes</option>
+                    <option value="D">Open fields & campsites</option>
+                </select><br>
+                <p>How do you prefer to spend your weekends?</p><br>
+                <label for="answ">Answer:</label><br>
+                <select name="answ" id="answ" size="1" required>
+                    <option value="A">Nature walks and wildlife observation</option>
+                    <option value="B">Adrenaline‑pumping activities like ziplining or kayaking</option>
+                    <option value="C">Team sports and group adventures</option>
+                    <option value="D">Relaxing outdoor picnics and campfires</option>
+                </select><br>
+                <p>What type of challange motivates you?</p><br>
+                <label for="answe">Answer:</label><br>
+                <select name="answe" id="answe" size="1" required>
+                    <option value="A">Physical challenges like hiking or climbing</option>
+                    <option value="B">Mental challenges like problem-solving or strategy games</option>
+                    <option value="C">Social challenges like team-building or leadership roles</option>
+                    <option value="D">Creative challenges like planning or designing activities</option>
+                </select><br>
+                <p>What adventure role appeals to you?</p>
+                <label for="answers">Answers</label> <br>
+                <select name="ans" id="ans" required>
+                    <option value="A">Trail Explorer</option>
+                    <option value="B">Thrill Seeker</option>
+                    <option value="C">Survival Strategist</option>
+                    <option value="D">Camp gurdian</option>
+                </select>
+            </div>
+            <div>
+                <p>Based on your answers, What club do you think you are best suited for?</p> <br>
+                <form>
+                    <input list="clubs">
+                    <datalist id="clubs">
+                        <option value="Safari Club">
+                        <option value="Adventure Club">
+                        <option value="Nature Club">
+                        <option value="Wildlife Club">
+                    </datalist>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
