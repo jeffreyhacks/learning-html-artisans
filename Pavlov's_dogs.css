@@ -1,0 +1,20 @@
+h1{
+    color: blue;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+p{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}

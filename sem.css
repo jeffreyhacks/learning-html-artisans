@@ -1,0 +1,61 @@
+        nav {
+            background-color: #f4f4f4;   /* soft background */
+            padding: 10px;
+            display: flex;              /* horizontal layout */
+            gap: 15px;                  /* spacing between links */
+            border-radius: 6px;         /* rounded corners */
+        }
+
+        nav a {
+            text-decoration: none;      /* remove underline */
+            color: #0d4abc;                /* dark text */
+            font-weight: bold;
+            padding: 6px 12px;
+            border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #333;     /* dark background on hover */
+            color: #fff;                /* white text on hover */
+        }
+        nav a.active {
+            background-color: #007BFF;  /* blue background for active link */
+            color: #fff;                /* white text for active link */
+        }
+
+        header{
+            background-color: #f4f4f4;   /* soft background */
+            padding: 20px;
+            text-align: center;
+            border-radius: 6px;         /* rounded corners */
+        }
+
+main {
+    display: flex;              /* side-by-side layout */
+    gap: 20px;                  /* spacing between items */
+    margin-top: 20px;
+    align-items: stretch;       /* force equal height */
+}
+
+section, aside, .image-wrapper {
+    flex: 1;                    /* equal width */
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 6px;
+    display: flex;              /* ensures content fills height */
+    flex-direction: column;
+}
+
+/* aside can have its own background */
+aside {
+    background: #eee;
+}
+
+/* wrap your image in a div with class="image-wrapper" */
+.image-wrapper img {
+    width: 100%;                /* fills column width */
+    height: 100%;               /* fills column height */
+    object-fit: cover;          /* crops to fit neatly */
+    border-radius: 6px;
+}
